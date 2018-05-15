@@ -11,13 +11,13 @@ function frameIt(){
 }
 
 function submitIt(){
-  $('#typing').on('submit',function(){
+  $('input#typing').on('submit',function(){
     alert('Your form is going to be submitted now.')
   })
 }
 
 function pressIt(){
-  $('#typing').on('keydown',function(e){
+  $('input#typing').on('keydown',function(e){
     if(e.key == "G"){
       alert("You pressed G ya dingus")
     }
