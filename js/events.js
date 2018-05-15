@@ -17,7 +17,9 @@ function submitIt(){
 }
 
 function pressIt(){
-  $(document).on('key')
+  $(document).on('keydown',function(e){
+    i
+  })
 }
 
 $(document).ready(function(){
