@@ -9,6 +9,17 @@ function frameIt(){
     $('img').addClass('tasty')
   })
 }
+
+function submitIt(){
+  $('#typing').on('submit',function(){
+    alert('Your form is going to be submitted now.')
+  })
+}
+
+function pressIt(){
+  
+}
+
 $(document).ready(function(){
 
 // call functions here
@@ -16,8 +27,3 @@ $(document).ready(function(){
   frameIt()
 });
 
-function submitIt(){
-  $('#typing').on('submit',function(){
-    alert('Your form is going to be submitted now.')
-  })
-}
