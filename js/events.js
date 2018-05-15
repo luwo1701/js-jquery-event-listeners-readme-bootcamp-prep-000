@@ -18,6 +18,6 @@ $(document).ready(function(){
 
 function submitIt(){
   $('#typing').on('submit',function(){
-    alert
+    alert('Your form is going to be submitted now.')
   })
 }
