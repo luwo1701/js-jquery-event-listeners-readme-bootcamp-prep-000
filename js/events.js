@@ -17,5 +17,7 @@ $(document).ready(function(){
 });
 
 function submitIt(){
-  
+  $('#typing').on('submit',function(){
+    alert
+  })
 }
