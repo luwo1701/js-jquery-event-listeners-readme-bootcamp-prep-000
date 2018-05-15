@@ -17,7 +17,7 @@ function submitIt(){
 }
 
 function pressIt(){
-  
+  $(document).on('key')
 }
 
 $(document).ready(function(){
