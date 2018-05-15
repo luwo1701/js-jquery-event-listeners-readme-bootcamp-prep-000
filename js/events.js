@@ -18,7 +18,7 @@ function submitIt(){
 
 function pressIt(){
   $('form').on('keydown',function(e){
-    if(e.key == "G"){
+    if(e.keyCode == "G"){
       alert("You pressed G ya dingus")
     }
   })
